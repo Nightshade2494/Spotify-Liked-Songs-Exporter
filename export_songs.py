@@ -37,5 +37,5 @@ def save_songs_to_file(songs, file_name="liked_songs.txt"):
 if __name__ == "__main__":
     print("Fetching your liked songs from Spotify...")
     liked_songs = get_liked_songs()
-    save_songs_to_file(liked_songs, "C:/Users/Prasanta Chowdhury/Documents/Spotify Playlists/liked_songs.txt")  # Update file path as needed
-    print(f"Saved {len(liked_songs)} songs to C:/Users/Prasanta Chowdhury/Documents/Spotify Playlists/liked_songs.txt")
+    save_songs_to_file(liked_songs, "C:/Users/YourName/Documents/liked_songs.txt")  # Update file path as needed
+    print(f"Saved {len(liked_songs)} songs to C:/Users/YourName/Documents/liked_songs.txt")
