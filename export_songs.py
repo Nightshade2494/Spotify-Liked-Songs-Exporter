@@ -2,9 +2,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Spotify API credentials (Set manually)
-SPOTIFY_CLIENT_ID = "e5ef9f41d4be4b98adf559523f40a085"
-SPOTIFY_CLIENT_SECRET = "f99be190442e47a080acd1a4d314c3f5"
-SPOTIFY_REDIRECT_URI = "http://localhost:8888/callback"
+SPOTIFY_CLIENT_ID = "your_client_id"  # Replace with your actual Client ID
+SPOTIFY_CLIENT_SECRET = "your_client_secret"  # Replace with your actual Client Secret
+SPOTIFY_REDIRECT_URI = "http://localhost:8888/callback"  # Keep this as is
 
 # Authenticate with Spotify
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
